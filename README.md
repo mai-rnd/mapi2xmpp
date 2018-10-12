@@ -1,7 +1,7 @@
 # mapi2xmpp
 
-email = 'Exchange Email address'
-epass = 'Exchange Email pass'
-jid = 'Jabber Id'
-jid_sender = 'Sender Jabber Id'
-jid_sender_pass = 'Sender Jabber pass'
+email = 'Exchange Email address' \n
+epass = 'Exchange Email pass' \n
+jid = 'Jabber Id' \n
+jid_sender = 'Sender Jabber Id' \n
+jid_sender_pass = 'Sender Jabber pass' \n
