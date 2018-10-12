@@ -13,7 +13,7 @@ jid_sender = 'Sender Jabber Id'
 jid_sender_pass = 'Sender Jabber pass'
 
 
-Install:
+# Install:
 
 python3 -m venv venv
 
@@ -21,6 +21,6 @@ source venv/bin/activate
 
 pip install -r requirements.txt 
 
-Run:
+# Run:
 
 python mapi2xmpp-resend.py 
