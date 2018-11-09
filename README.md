@@ -8,7 +8,8 @@ jid = 'Jabber Id' \n
 jid_sender = 'Sender Jabber Id' \n
 jid_sender_pass = 'Sender Jabber pass' \n
 folders = ['Support','Admin','Noreply','inbox'] \тут нужно перечислить названия папок, которые проверять нужно
-=======
+
+
 config.py file content:
 
 email = 'Exchange Email address'
@@ -21,6 +22,7 @@ jid_sender = 'Sender Jabber Id'
 
 jid_sender_pass = 'Sender Jabber pass'
 
+folders = ['Some','Folders','To','Check']
 
 # Install:
 
