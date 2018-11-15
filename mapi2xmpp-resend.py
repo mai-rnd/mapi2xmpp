@@ -43,8 +43,8 @@ if __name__ == '__main__':
                     unreaded.append(subject['id'])
                     if subject['id'] not in sended:
                         message = '*'+fold+':*\n-----------\n'+str(subject['sender'].email_address)+\
-                                  '\n-----------\n'+subject['subject']+'\n-----------\n'+\
-                                  html2text.html2text(subject['body']).replace('\n','')[:500]
+                                  '\n-----------\n'+str(subject['subject'])+'\n-----------\n'+\
+                                  html2text.html2text(str(subject['body'])).replace('\n','')[:500]
                         send_xmpp_msg(jid_sender, jid_sender_pass, jid, message)
                         sended.append(subject['id'])
                 msg.clear()
